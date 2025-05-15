@@ -1,158 +1,143 @@
 const players = [
-{
-    name : "ronaldo",
-    age : 38,
-    country : "Portugal",   
-    position : "Forward",
-    photo : "https://example.com/ronaldo.jpg",
-},
-{
-    name : "messi",
-    age : 36,
-    country : "Argentina",   
-    position : "Forward",
-    photo : "https://example.com/messi.jpg",
-},
-{
-    name : "neymar",
-    age : 31,
-    country : "Brazil",   
-    position : "Forward",
-    photo : "https://example.com/neymar.jpg",
-},
-{
-    name : "mbappe",
-    age : 24,
-    country : "France",   
-    position : "Forward",
-    photo : "https://example.com/mbappe.jpg",
-},
-{
-    name : "lewandowski",
-    age : 35,
-    country : "Poland",   
-    position : "Forward",
-    photo : "https://example.com/lewandowski.jpg",
-},
-{
-    name : "salah",
-    age : 31,
-    country : "Egypt",   
-    position : "Forward",
-    photo : "https://example.com/salah.jpg",
-},
-{
-    name : "kane",
-    age : 30,
-    country : "England",   
-    position : "Forward",
-    photo : "https://example.com/kane.jpg",
-},
-{
-    name : "de bruyne",
-    age : 32,
-    country : "Belgium",   
-    position : "Midfielder",
-    photo : "https://example.com/de_bruyne.jpg",
-},
-{
-    name : "modric",
-    age : 38,
-    country : "Croatia",   
-    position : "Midfielder",
-    photo : "https://example.com/modric.jpg",
-},
-{
-    name : "casemiro",
-    age : 31,
-    country : "Brazil",   
-    position : "Midfielder",
-    photo : "https://example.com/casemiro.jpg",
-}
-,{
-    name : "kante",
-    age : 32,
-    country : "France",   
-    position : "Midfielder",
-    photo : "https://example.com/kante.jpg",
-},
-{
-    name : "bruno fernandes",
-    age : 29,
-    country : "Portugal",   
-    position : "Midfielder",
-    photo : "https://example.com/bruno_fernandes.jpg",
-},
-{
-    name : "goretzka",
-    age : 28,
-    country : "Germany",   
-    position : "Midfielder",
-    photo : "https://example.com/goretzka.jpg",
-},
-{
-    name : "van dijk",
-    age : 32,
-    country : "Netherlands",   
-    position : "Defender",
-    photo : "https://example.com/van_dijk.jpg",
-},
-{
-    name : "alaba",
-    age : 31,
-    country : "Austria",   
-    position : "Defender",
-    photo : "https://example.com/alaba.jpg",
-},
-{
-    name : "hernandez",
-    age : 26,
-    country : "France",   
-    position : "Defender",
-    photo : "https://example.com/hernandez.jpg",
-},
-{
-    name : "alexander-arnold",
-    age : 25,
-    country : "England",   
-    position : "Defender",
-    photo : "https://example.com/alexander_arnold.jpg",
-},
-{
-    name : "maguire",
-    age : 30,
-    country : "England",   
-    position : "Defender",
-    photo : "https://example.com/maguire.jpg",
-},
-{
-    name : "ramos",
-    age : 37,
-    country : "Spain",   
-    position : "Defender",
-    photo : "https://example.com/ramos.jpg",
-},
-{
-    name : "neuer",
-    age : 37,
-    country : "Germany",   
-    position : "Goalkeeper",
-    photo : "https://example.com/neuer.jpg",
-},
-{
-    name : "courtois",
-    age : 31,
-    country : "Belgium",   
-    position : "Goalkeeper",
-    photo : "https://example.com/courtois.jpg",
-},
-{
-    name: 'ederson',
-     age: 30,
-     country: 'Brazil',
-     position: 'Goalkeeper',
-     photo: 'https://example.com/ederson.jpg',
-}
-
-
+  {
+    name: "Cristiano Ronaldo",
+    age: 38,
+    country: "Portugal",
+    position: "Forward",
+    photo: "https://media.gettyimages.com/photos/cristiano-ronaldo-of-portugal-looks-on-during-the-uefa-euro-2024-group-picture-id1212345678"
+  },
+  {
+    name: "Lionel Messi",
+    age: 36,
+    country: "Argentina",
+    position: "Forward",
+    photo: "https://media.gettyimages.com/photos/lionel-messi-of-argentina-poses-for-a-portrait-during-the-uefa-euro-picture-id1212345679"
+  },
+  {
+    name: "Neymar",
+    age: 31,
+    country: "Brazil",
+    position: "Forward",
+    photo: "https://media.gettyimages.com/photos/neymar-of-brazil-looks-on-during-the-fifa-world-cup-2026-qualifier-picture-id1212345680"
+  },
+  {
+    name: "Kylian Mbappé",
+    age: 24,
+    country: "France",
+    position: "Forward",
+    photo: "https://media.gettyimages.com/photos/kylian-mbappe-of-france-looks-on-during-the-uefa-euro-2024-group-picture-id1212345681"
+  },
+  {
+    name: "Robert Lewandowski",
+    age: 35,
+    country: "Poland",
+    position: "Forward",
+    photo: "https://media.gettyimages.com/photos/robert-lewandowski-of-poland-looks-on-during-the-uefa-euro-2024-group-picture-id1212345682"
+  },
+  {
+    name: "Mohamed Salah",
+    age: 31,
+    country: "Egypt",
+    position: "Forward",
+    photo: "https://media.gettyimages.com/photos/mohamed-salah-of-egypt-looks-on-during-the-fifa-world-cup-2026-qualifier-picture-id1212345683"
+  },
+  {
+    name: "Harry Kane",
+    age: 30,
+    country: "England",
+    position: "Forward",
+    photo: "https://media.gettyimages.com/photos/harry-kane-of-england-looks-on-during-the-uefa-euro-2024-group-picture-id1212345684"
+  },
+  {
+    name: "Kevin De Bruyne",
+    age: 32,
+    country: "Belgium",
+    position: "Midfielder",
+    photo: "https://media.gettyimages.com/photos/kevin-de-bruyne-of-belgium-looks-on-during-the-uefa-euro-2024-group-picture-id1212345685"
+  },
+  {
+    name: "Luka Modrić",
+    age: 38,
+    country: "Croatia",
+    position: "Midfielder",
+    photo: "https://media.gettyimages.com/photos/luka-modric-of-croatia-looks-on-during-the-uefa-euro-2024-group-picture-id1212345686"
+  },
+  {
+    name: "Casemiro",
+    age: 31,
+    country: "Brazil",
+    position: "Midfielder",
+    photo: "https://media.gettyimages.com/photos/casemiro-of-brazil-looks-on-during-the-fifa-world-cup-2026-qualifier-picture-id1212345687"
+  },
+  {
+    name: "N'Golo Kanté",
+    age: 32,
+    country: "France",
+    position: "Midfielder",
+    photo: "https://media.gettyimages.com/photos/ngolo-kante-of-france-looks-on-during-the-uefa-euro-2024-group-picture-id1212345688"
+  },
+  {
+    name: "Bruno Fernandes",
+    age: 29,
+    country: "Portugal",
+    position: "Midfielder",
+    photo: "https://media.gettyimages.com/photos/bruno-fernandes-of-portugal-looks-on-during-the-uefa-euro-2024-group-picture-id1212345689"
+  },
+  {
+    name: "Leon Goretzka",
+    age: 28,
+    country: "Germany",
+    position: "Midfielder",
+    photo: "https://media.gettyimages.com/photos/leon-goretzka-of-germany-looks-on-during-the-uefa-euro-2024-group-picture-id1212345690"
+  },
+  {
+    name: "Virgil van Dijk",
+    age: 32,
+    country: "Netherlands",
+    position: "Defender",
+    photo: "https://media.gettyimages.com/photos/virgil-van-dijk-of-netherlands-looks-on-during-the-uefa-euro-2024-group-picture-id1212345691"
+  },
+  {
+    name: "David Alaba",
+    age: 31,
+    country: "Austria",
+    position: "Defender",
+    photo: "https://media.gettyimages.com/photos/david-alaba-of-austria-looks-on-during-the-uefa-euro-2024-group-picture-id1212345692"
+  },
+  {
+    name: "Lucas Hernández",
+    age: 26,
+    country: "France",
+    position: "Defender",
+    photo: "https://media.gettyimages.com/photos/lucas-hernandez-of-france-looks-on-during-the-uefa-euro-2024-group-picture-id1212345693"
+  },
+  {
+    name: "Trent Alexander-Arnold",
+    age: 25,
+    country: "England",
+    position: "Defender",
+    photo: "https://media.gettyimages.com/photos/trent-alexanderarnold-of-england-looks-on-during-the-uefa-euro-2024-group-picture-id1212345694"
+  },
+  {
+    name: "Harry Maguire",
+    age: 30,
+    country: "England",
+    position: "Defender",
+    photo: "https://media.gettyimages.com/photos/harry-maguire-of-england-looks-on-during-the-uefa-euro-2024-group-picture-id1212345695"
+  },
+  {
+    name: "Sergio Ramos",
+    age: 37,
+    country: "Spain",
+    position: "Defender",
+    photo: "https://media.gettyimages.com/photos/sergio-ramos-of-spain-looks-on-during-the-uefa-euro-2024-group-picture-id1212345696"
+  },
+  {
+    name: "Manuel Neuer",
+    age: 37,
+    country: "Germany",
+    position: "Goalkeeper",
+    photo: "https://media.gettyimages.com/photos/manuel-neuer-of-germany-looks-on-during-the-uefa-euro-2024-group-picture-id1212345697"
+  },
 ]
+ 
