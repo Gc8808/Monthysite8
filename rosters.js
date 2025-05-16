@@ -13,6 +13,7 @@ document.addEventListener("DOMContentLoaded", () => {
                           <p class="card-text">Age: ${p.age}</p>
                             <p class="card-text">Country: ${p.country}</p>
                             <p class="badge badge-position badge-pos-$(p.position}"> ${p.position}</p>
+                            ${p.button}
                         </div>
                     </div>
                 ` 
