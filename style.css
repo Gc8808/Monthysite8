@@ -36,8 +36,21 @@
 
     h1 {
       font-size: 100px;
-      color: green;
+      color: darkblue;
       text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
       margin-top: 50px;
       margin-bottom: 20px;
     }
+
+    @keyframes small-bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+.bounce {
+  animation: small-bounce 1.5s ease-in-out infinite;
+}

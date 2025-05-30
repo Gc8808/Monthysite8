@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded", () => {
                           <h5 class="card-title mb-1">${p.name}</h5>
                           <p class="card-text">Age: ${p.age}</p>
                             <p class="card-text">Country: ${p.country}</p>
-                            <p class="badge badge-position badge-pos-$(p.position}"> ${p.position}</p>
+                            <p class="badge badge-position bg-dark badge-pos-$(p.position}"> ${p.position}</p>
                             ${p.button}
                         </div>
                     </div>
